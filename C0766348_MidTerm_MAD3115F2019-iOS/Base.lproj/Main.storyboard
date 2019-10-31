@@ -70,8 +70,8 @@
         <!--Customers-->
         <scene sceneID="9jZ-Oy-71S">
             <objects>
-                <viewController id="eLx-nG-z7Q" customClass="CustomerViewController" customModule="C0766348_MidTerm_MAD3115F2019_iOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fSj-2N-QwR">
+                <viewController storyboardIdentifier="CustomerVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eLx-nG-z7Q" customClass="CustomerListTableViewController" customModule="C0766348_MidTerm_MAD3115F2019_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="SecondVC" id="fSj-2N-QwR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
