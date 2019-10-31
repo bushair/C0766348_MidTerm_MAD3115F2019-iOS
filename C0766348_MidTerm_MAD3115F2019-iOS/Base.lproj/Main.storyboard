@@ -48,7 +48,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Sign In" id="SJi-1L-RAG">
-                        <barButtonItem key="rightBarButtonItem" id="YCc-rf-uB8"/>
+                        <rightBarButtonItems>
+                            <barButtonItem id="YCc-rf-uB8"/>
+                            <barButtonItem title="Log In" id="bpG-sB-KHf"/>
+                        </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
