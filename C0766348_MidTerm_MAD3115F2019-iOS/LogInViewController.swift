@@ -13,13 +13,20 @@ class LogInViewController: UIViewController
     
     
     @IBOutlet weak var txtuserName: UITextField!
+    @IBOutlet weak var txtPassword: UITextField!
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
     }
-
+    
+    
+    @IBAction func btlLogin(_ sender: UIBarButtonItem)
+    {
+        
+    }
+    
 
 }
 

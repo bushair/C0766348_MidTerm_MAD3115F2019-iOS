@@ -52,6 +52,7 @@
                             <barButtonItem id="YCc-rf-uB8"/>
                             <barButtonItem title="Log In" id="bpG-sB-KHf">
                                 <connections>
+                                    <action selector="btlLogin:" destination="BYZ-38-t0r" id="4gK-FC-YDx"/>
                                     <segue destination="eLx-nG-z7Q" kind="show" id="dtX-q1-3WK"/>
                                 </connections>
                             </barButtonItem>
@@ -69,7 +70,7 @@
         <!--Customers-->
         <scene sceneID="9jZ-Oy-71S">
             <objects>
-                <viewController id="eLx-nG-z7Q" sceneMemberID="viewController">
+                <viewController id="eLx-nG-z7Q" customClass="CustomerViewController" customModule="C0766348_MidTerm_MAD3115F2019_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fSj-2N-QwR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
