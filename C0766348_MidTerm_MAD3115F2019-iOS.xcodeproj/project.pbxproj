@@ -13,6 +13,7 @@
 		9B1AB63B236B6A4000E1C6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AB63A236B6A4000E1C6D0 /* Assets.xcassets */; };
 		9B1AB63E236B6A4000E1C6D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AB63C236B6A4000E1C6D0 /* LaunchScreen.storyboard */; };
 		9B1AB649236B6CA800E1C6D0 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AB648236B6CA800E1C6D0 /* images.png */; };
+		9B1AB64C236B6E6900E1C6D0 /* pngtree-vector-black-and-white-stay-meng-small-penguin-png-image_2999973.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AB64B236B6E6900E1C6D0 /* pngtree-vector-black-and-white-stay-meng-small-penguin-png-image_2999973.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		9B1AB63D236B6A4000E1C6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B1AB63F236B6A4000E1C6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B1AB648236B6CA800E1C6D0 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images.png; path = ../../../Downloads/images.png; sourceTree = "<group>"; };
+		9B1AB64A236B6D3400E1C6D0 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		9B1AB64B236B6E6900E1C6D0 /* pngtree-vector-black-and-white-stay-meng-small-penguin-png-image_2999973.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pngtree-vector-black-and-white-stay-meng-small-penguin-png-image_2999973.jpg"; path = "../../../Downloads/pngtree-vector-black-and-white-stay-meng-small-penguin-png-image_2999973.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		9B1AB627236B6A3E00E1C6D0 = {
 			isa = PBXGroup;
 			children = (
+				9B1AB64B236B6E6900E1C6D0 /* pngtree-vector-black-and-white-stay-meng-small-penguin-png-image_2999973.jpg */,
 				9B1AB648236B6CA800E1C6D0 /* images.png */,
 				9B1AB647236B6C8C00E1C6D0 /* Images */,
 				9B1AB632236B6A3E00E1C6D0 /* C0766348_MidTerm_MAD3115F2019-iOS */,
@@ -71,6 +75,7 @@
 		9B1AB647236B6C8C00E1C6D0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9B1AB64A236B6D3400E1C6D0 /* images.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1AB64C236B6E6900E1C6D0 /* pngtree-vector-black-and-white-stay-meng-small-penguin-png-image_2999973.jpg in Resources */,
 				9B1AB63E236B6A4000E1C6D0 /* LaunchScreen.storyboard in Resources */,
 				9B1AB63B236B6A4000E1C6D0 /* Assets.xcassets in Resources */,
 				9B1AB639236B6A3E00E1C6D0 /* Main.storyboard in Resources */,
