@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		9B1AB634236B6A3E00E1C6D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1AB633236B6A3E00E1C6D0 /* AppDelegate.swift */; };
-		9B1AB636236B6A3E00E1C6D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1AB635236B6A3E00E1C6D0 /* ViewController.swift */; };
+		9B1AB636236B6A3E00E1C6D0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1AB635236B6A3E00E1C6D0 /* LogInViewController.swift */; };
 		9B1AB639236B6A3E00E1C6D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AB637236B6A3E00E1C6D0 /* Main.storyboard */; };
 		9B1AB63B236B6A4000E1C6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AB63A236B6A4000E1C6D0 /* Assets.xcassets */; };
 		9B1AB63E236B6A4000E1C6D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AB63C236B6A4000E1C6D0 /* LaunchScreen.storyboard */; };
 		9B1AB649236B6CA800E1C6D0 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AB648236B6CA800E1C6D0 /* images.png */; };
 		9B1AB64C236B6E6900E1C6D0 /* pngtree-vector-black-and-white-stay-meng-small-penguin-png-image_2999973.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AB64B236B6E6900E1C6D0 /* pngtree-vector-black-and-white-stay-meng-small-penguin-png-image_2999973.jpg */; };
+		9B1AB64E236B6F9200E1C6D0 /* cloud-icon-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AB64D236B6F9200E1C6D0 /* cloud-icon-2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B1AB630236B6A3E00E1C6D0 /* C0766348_MidTerm_MAD3115F2019-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "C0766348_MidTerm_MAD3115F2019-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1AB633236B6A3E00E1C6D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B1AB635236B6A3E00E1C6D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B1AB635236B6A3E00E1C6D0 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		9B1AB638236B6A3E00E1C6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B1AB63A236B6A4000E1C6D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B1AB63D236B6A4000E1C6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -27,6 +28,7 @@
 		9B1AB648236B6CA800E1C6D0 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images.png; path = ../../../Downloads/images.png; sourceTree = "<group>"; };
 		9B1AB64A236B6D3400E1C6D0 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
 		9B1AB64B236B6E6900E1C6D0 /* pngtree-vector-black-and-white-stay-meng-small-penguin-png-image_2999973.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pngtree-vector-black-and-white-stay-meng-small-penguin-png-image_2999973.jpg"; path = "../../../Downloads/pngtree-vector-black-and-white-stay-meng-small-penguin-png-image_2999973.jpg"; sourceTree = "<group>"; };
+		9B1AB64D236B6F9200E1C6D0 /* cloud-icon-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "cloud-icon-2.jpg"; path = "../../../Downloads/cloud-icon-2.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			children = (
 				9B1AB64B236B6E6900E1C6D0 /* pngtree-vector-black-and-white-stay-meng-small-penguin-png-image_2999973.jpg */,
 				9B1AB648236B6CA800E1C6D0 /* images.png */,
+				9B1AB64D236B6F9200E1C6D0 /* cloud-icon-2.jpg */,
 				9B1AB647236B6C8C00E1C6D0 /* Images */,
 				9B1AB632236B6A3E00E1C6D0 /* C0766348_MidTerm_MAD3115F2019-iOS */,
 				9B1AB631236B6A3E00E1C6D0 /* Products */,
@@ -63,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				9B1AB633236B6A3E00E1C6D0 /* AppDelegate.swift */,
-				9B1AB635236B6A3E00E1C6D0 /* ViewController.swift */,
+				9B1AB635236B6A3E00E1C6D0 /* LogInViewController.swift */,
 				9B1AB637236B6A3E00E1C6D0 /* Main.storyboard */,
 				9B1AB63A236B6A4000E1C6D0 /* Assets.xcassets */,
 				9B1AB63C236B6A4000E1C6D0 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				9B1AB63B236B6A4000E1C6D0 /* Assets.xcassets in Resources */,
 				9B1AB639236B6A3E00E1C6D0 /* Main.storyboard in Resources */,
 				9B1AB649236B6CA800E1C6D0 /* images.png in Resources */,
+				9B1AB64E236B6F9200E1C6D0 /* cloud-icon-2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B1AB636236B6A3E00E1C6D0 /* ViewController.swift in Sources */,
+				9B1AB636236B6A3E00E1C6D0 /* LogInViewController.swift in Sources */,
 				9B1AB634236B6A3E00E1C6D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
