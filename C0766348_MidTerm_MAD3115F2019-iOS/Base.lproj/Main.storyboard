@@ -50,13 +50,33 @@
                     <navigationItem key="navigationItem" title="Sign In" id="SJi-1L-RAG">
                         <rightBarButtonItems>
                             <barButtonItem id="YCc-rf-uB8"/>
-                            <barButtonItem title="Log In" id="bpG-sB-KHf"/>
+                            <barButtonItem title="Log In" id="bpG-sB-KHf">
+                                <connections>
+                                    <segue destination="eLx-nG-z7Q" kind="show" id="dtX-q1-3WK"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="944.92753623188412" y="18.75"/>
+            <point key="canvasLocation" x="946" y="-127"/>
+        </scene>
+        <!--Customers-->
+        <scene sceneID="9jZ-Oy-71S">
+            <objects>
+                <viewController id="eLx-nG-z7Q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fSj-2N-QwR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="v4s-PV-C3e"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Customers" id="H8c-gw-AjA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wiz-Nt-E4U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1748" y="-110"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="S2a-lW-LAL">
