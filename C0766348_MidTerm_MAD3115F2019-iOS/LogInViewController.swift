@@ -21,6 +21,20 @@ class LogInViewController: UIViewController
     }
     
     
+    @IBAction func btnLogin(_ sender: UIBarButtonItem)
+    {
+        //stackoverflow.com/signout-implimentation-swift
+        
+        UserDefaults.standard.set(false, forKey: "isUserLoggedIn")
+        UserDefaults.standard.synchronize()
+        
+        let loginVC = self.storyboard?.instantiateViewController(withIdentifier: "LogInViewController") as! LogInViewController
+        
+        let appDel:AppDelegate = UIApplication.shared.delegate as! AppDelegate
+        
+        appDel.window?.rootViewController = loginVC
+    }
+    
     @IBAction func btlLogin(_ sender: UIBarButtonItem)
     {
         self.validateUser()

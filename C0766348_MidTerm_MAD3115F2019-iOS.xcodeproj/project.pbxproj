@@ -63,6 +63,7 @@
 				9B1AB637236B6A3E00E1C6D0 /* Main.storyboard */,
 				9B1AB64F236B802F00E1C6D0 /* CustomerListTableViewController.swift */,
 				9B1AB63A236B6A4000E1C6D0 /* Assets.xcassets */,
+				9B1AB64A236B6D3400E1C6D0 /* images.png */,
 				9B1AB63C236B6A4000E1C6D0 /* LaunchScreen.storyboard */,
 				9B1AB63F236B6A4000E1C6D0 /* Info.plist */,
 			);
@@ -72,7 +73,6 @@
 		9B1AB647236B6C8C00E1C6D0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				9B1AB64A236B6D3400E1C6D0 /* images.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
