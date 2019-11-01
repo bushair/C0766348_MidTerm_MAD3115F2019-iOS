@@ -86,11 +86,23 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Customers" id="H8c-gw-AjA">
-                        <barButtonItem key="leftBarButtonItem" title="Logout" id="3vs-LI-8cX"/>
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="3vs-LI-8cX">
+                            <connections>
+                                <action selector="btnLogin:" destination="aVn-IV-qKE" id="Yxg-9Y-Wdr"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="vfG-Td-faV">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="obJ-4J-5FV">
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wiz-Nt-E4U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="aVn-IV-qKE" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1747.826086956522" y="-110.49107142857143"/>
         </scene>
