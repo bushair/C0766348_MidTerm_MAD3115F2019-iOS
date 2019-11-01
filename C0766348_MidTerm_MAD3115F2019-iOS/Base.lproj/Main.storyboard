@@ -53,7 +53,6 @@
                             <barButtonItem title="Log In" id="bpG-sB-KHf">
                                 <connections>
                                     <action selector="btlLogin:" destination="BYZ-38-t0r" id="4gK-FC-YDx"/>
-                                    <segue destination="eLx-nG-z7Q" kind="show" id="dtX-q1-3WK"/>
                                 </connections>
                             </barButtonItem>
                         </rightBarButtonItems>

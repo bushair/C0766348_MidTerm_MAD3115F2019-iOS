@@ -27,10 +27,8 @@ class LogInViewController: UIViewController
     }
     func validateUser()
     {
-        if(txtuserName.text == "admin@gmail.com" && txtPassword.text == "admin123")
+        if(txtuserName.text == "bushair@gmail.com" && txtPassword.text == "bushair123")
         {
-            print("Hello, My First Click : ", txtuserName.text! )
-            
             let myStoryBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             let nextVC = myStoryBoard.instantiateViewController(withIdentifier: "CustomerVC") as! CustomerListTableViewController
             self.present(nextVC, animated: true, completion: nil)
@@ -38,8 +36,7 @@ class LogInViewController: UIViewController
         }
         else
         {
-            //Step - 1
-            //Create AlertController Object
+             //Create AlertController Object
             let alert  =
                 UIAlertController(title: "Error", message: "User Email / Password incorrect", preferredStyle: UIAlertController.Style.alert)
             //UIAlertController.Style.alert
