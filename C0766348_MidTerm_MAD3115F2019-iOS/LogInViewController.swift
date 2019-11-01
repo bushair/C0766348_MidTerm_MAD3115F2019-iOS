@@ -34,11 +34,30 @@ class LogInViewController: UIViewController
             self.present(nextVC, animated: true, completion: nil)
             
         }
-      
+        else
+            
+        {
+            
+            let alert  =
+                
+                UIAlertController(title: "Error", message: "User Email / Password incorrect", preferredStyle: UIAlertController.Style.alert)
+            let actionOk = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
+            alert.addAction(actionOk)
+            self.present(alert, animated: true, completion: nil)
+            
+        }
+        
+        
+        
     }
-    
-
-    
-
 }
+    
+    
+      
+    
+    
+
+    
+
+
 
