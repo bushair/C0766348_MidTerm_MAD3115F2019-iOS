@@ -26,7 +26,9 @@ class AddNewCustomerViewController: UIViewController {
     @IBAction func saveBtntapped(_ sender: Any) {
       if nameTextField.text == ""{
                 showAlert(withMessage: "Please add new customer name",viewController: self)
-            }avigationController?.popViewController(animated: true)
+            }else{
+                delegate?.didSelectSaveBtn(nameTextField.text ?? "")
+                navigationController?.popViewController(animated: true)
             }
         }
 }
