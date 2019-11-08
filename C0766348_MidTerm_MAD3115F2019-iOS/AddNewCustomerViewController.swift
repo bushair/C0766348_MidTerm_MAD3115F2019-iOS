@@ -13,7 +13,16 @@ protocol AddNewCustomerViewControllerDelegate:NSObject {
 }
 
 class AddNewCustomerViewController: UIViewController {
+    @IBOutlet weak var nameTextField: UITextField!
     
-        }
+    weak var delegate:AddNewCustomerViewControllerDelegate?
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
     }
+    
+    @IBAction func saveBtntapped(_ sender: Any) {
+      
 }
